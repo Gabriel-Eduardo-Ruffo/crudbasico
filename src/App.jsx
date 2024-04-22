@@ -1,9 +1,10 @@
-import './App.css';
+import React from "react";
+import ListadoNombres from "./Components/ListadoNombres";
 
 function App() {
   return (
-    <div className="App">
-      <h3>Hola</h3>
+    <div className="container">
+      <ListadoNombres/>
     </div>
   );
 }
